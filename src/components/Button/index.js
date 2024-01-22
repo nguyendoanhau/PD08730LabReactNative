@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pressable, Text, TouchableOpacity} from 'react-native';
 import {styles} from './styles';
-const Button = ({title}) => {
+const Button = ({title, onPress, style}) => {
     const handlePress = () =>{
         console.log('Clicked');
     };
@@ -9,9 +9,9 @@ const Button = ({title}) => {
         <TouchableOpacity
         activeOpacity= "0.6."
         onPress={handlePress}
-        style={styles.container}>
+        style={[styles.container,style]}>
             <Text style={styles.textContent}>{title}</Text>
         </TouchableOpacity>
     );
 };
-export default Button;
+export default React.memo(Button);

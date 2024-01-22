@@ -1,10 +1,13 @@
 import React from 'react';
-import {Text} from 'react-native';
-import MyLab3 from './src/screens/Lab3';
-import MyLab4 from './src/screens/Lab4';
+import {SafeAreaView, Text} from 'react-native';
+import Splash from './src/screens/Auth/Splash';
 
 const App = () => {
-  return <MyLab4/>;
+  return (
+    <SafeAreaView>
+      <Splash></Splash>
+    </SafeAreaView>
+  );
 };
 
 export default App;

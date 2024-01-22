@@ -1,10 +1,16 @@
 import  {StyleSheet} from 'react-native';
 export const styles=StyleSheet.create({
     container:{
-        pading:24,
+        padding:24,
+        justifyContent: 'center',
+        flexDirection: 'column',
+        alignItems: 'center',
+        height: '100%',
+        height: '100%',
+        borderWidth: 1,
     },
     img: {
-        with:'100%',
+        with: '100%',
         height: 200,
     },
     title: {
@@ -13,7 +19,7 @@ export const styles=StyleSheet.create({
         textAlign:'center',
     },
     innerTitle: {
-        collor:'#FCA34D',
+        collor: '#FCA34D',
         textDecorationLine: 'underline',
     },
     titleContainer: {
