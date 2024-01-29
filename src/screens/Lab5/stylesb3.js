@@ -1,0 +1,52 @@
+import { StyleSheet } from "react-native";
+
+export const styles=StyleSheet.create({
+    container: {
+        flex:1,
+        justifyContent:'center',
+    },
+    contentContainer:{
+        marginLeft:80,
+        flex:3,
+    },
+    image:{
+        flex:7,
+        resizeMode:'cover',
+        justifyContent:'center',
+    },
+    text:{
+       textAlign:'left',
+       paddingBottom:20, 
+    },
+    firtLine:{
+        color:'white',
+        fontSize:50,
+    },
+    secondLine:{
+        color:'white',
+        fontSize:50,
+    },
+    button:{
+        width:100,
+        height:50,
+        backgroundColor:'white',
+        borderRadius:10,
+        alignItems:'center',
+        justifyContent:'center',
+    },
+    buttonText:{
+        color:'black',
+        fontSize:16,
+        paddingBottom:50,
+    },
+    textStyle:{
+        fontSize:15,
+        color:'white',
+        paddingBottom:50,
+    },
+    footer:{
+        borderTopStartRadius:20,
+        backgroundColor:'blue',
+        height:60,
+    },
+});
