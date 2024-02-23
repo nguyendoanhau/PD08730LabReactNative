@@ -18,7 +18,7 @@ const SignUp = ({navigation}) => {
   };
   return (
     <View style={styles.container}>
-      <AuthHeader title="Sign Up" onBackPress={onBack} />
+      <AuthHeader title="Sign In" onBackPress={onBack} />
       <Input label="Name" placeholder="Example Jonh" />
       <Input label="Email" placeholder="example@gmail.com" />
       <Input isPassword label="Password" placeholder="******" />
